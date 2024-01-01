@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kalender Akademik Universitas Darunnajah 2022-2023.">
     <title>Kalender Akademik 2022-2023</title>
     <style>
         body {
@@ -38,8 +39,8 @@
             background-color: #e1e1e1; /* Warna latar saat dihover */
         }
 
-        .month-header {
-            background-color: #0060ae; /* Warna aksen untuk header bulan */
+        .month-header, .semester-header {
+            background-color: #0060ae; /* Warna aksen untuk header bulan dan semester */
             color: #fff; /* Warna teks putih untuk kontras */
             font-weight: bold;
         }
@@ -49,39 +50,61 @@
     <h1 style="color: #0060ae;">Kalender Akademik Universitas Darunnajah 2022-2023</h1>
 
     <table>
+        <tr class="semester-header">
+            <th colspan="4">Semester Ganjil (September - Januari)</th>
+        </tr>
         <tr class="month-header">
             <th colspan="4">September 2022</th>
         </tr>
         <tr>
-            <th>Semester</th>
+            <th>Minggu</th>
             <th>Tanggal Mulai</th>
             <th>Tanggal Selesai</th>
-            <th>Keterangan</th>
+            <th>Kegiatan</th>
         </tr>
         <tr>
-            <td>Semester Ganjil</td>
+            <td>1</td>
             <td>1 September 2022</td>
-            <td>15 Januari 2023</td>
-            <td>Aktivitas Akademik Semester Ganjil</td>
+            <td>15 September 2022</td>
+            <td>Kegiatan Awal Semester Ganjil</td>
         </tr>
-        <!-- Tambahkan baris lain sesuai kebutuhan -->
+        <tr>
+            <td>2</td>
+            <td>16 September 2022</td>
+            <td>30 November 2022</td>
+            <td>Kelas dan Ujian Tengah Semester</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>1 Desember 2022</td>
+            <td>15 Januari 2023</td>
+            <td>Ujian Akhir Semester Ganjil</td>
+        </tr>
 
+        <tr class="semester-header">
+            <th colspan="4">Semester Genap (Februari - Juni)</th>
+        </tr>
         <tr class="month-header">
             <th colspan="4">Februari 2023</th>
         </tr>
         <tr>
-            <th>Semester</th>
-            <th>Tanggal Mulai</th>
-            <th>Tanggal Selesai</th>
-            <th>Keterangan</th>
+            <td>4</td>
+            <td>1 Februari 2023</td>
+            <td>15 Februari 2023</td>
+            <td>Kegiatan Awal Semester Genap</td>
         </tr>
         <tr>
-            <td>Semester Genap</td>
-            <td>1 Februari 2023</td>
-            <td>15 Juli 2023</td>
-            <td>Aktivitas Akademik Semester Genap</td>
+            <td>5</td>
+            <td>16 Februari 2023</td>
+            <td>30 April 2023</td>
+            <td>Kelas dan Ujian Tengah Semester</td>
         </tr>
-        <!-- Tambahkan baris lain sesuai kebutuhan -->
+        <tr>
+            <td>6</td>
+            <td>1 Mei 2023</td>
+            <td>15 Juni 2023</td>
+            <td>Ujian Akhir Semester Genap</td>
+        </tr>
     </table>
 </body>
 </html>
